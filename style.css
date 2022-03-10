@@ -67,6 +67,14 @@ a {
   background-image: url('img/train.jpg');
 }
 
+.cover0 {
+  background-image: url('img/senzamusica.jpg');
+}
+
+.cover00 {
+  background-image: url('img/tempo.jpg');
+}
+
 .book .book-cover {
   background-size: 100% 100%;
 }
