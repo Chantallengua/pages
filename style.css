@@ -227,6 +227,10 @@ a {
   -webkit-transition: all 1s ease-in-out; */
 }
 
+.lateral {
+position: relative;	
+}
+
 .book:hover .btn, .book:hover .title {
   opacity: 1;
 }
