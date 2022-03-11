@@ -356,3 +356,10 @@ article {
 .i {
 	font-style: italic;
 }
+
+
+@media only screen and ( max-width: 760px ) {
+p {
+    margin: 0em !important;
+}
+}
