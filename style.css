@@ -74,6 +74,26 @@ a {
   display: inline-block;
 }
 
+footer > div {
+	text-align: center;
+}
+
+footer > div  > span {
+	margin: 0 0.5em;
+}
+
+footer form {
+	display: inline-block;
+}
+
+footer {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+footer input[type="image"] {
+    vertical-align: text-bottom;
+}
 }	
 
 
@@ -145,6 +165,23 @@ a {
 
 .book:hover .pag, .book:hover .title {
   opacity: 1;
+}
+
+footer > div {
+	text-align: right;
+	margin-right: 1em;
+}
+
+footer > div  > span {
+	margin: 0 0.5em;
+}
+
+footer form {
+	display: inline-block;
+}
+
+footer input[type="image"] {
+    vertical-align: text-bottom;
 }
 
 }
