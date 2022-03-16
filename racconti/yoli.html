@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="book.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <style> 
 	/* Highlight */
@@ -25,6 +26,14 @@
 		background: rgb(134, 174, 195, 0.4);
 	}
     </style>
+	
+	<script type="text/javascript">
+ $(document).ready(function() {
+ $('body').bind('cut copy paste', function(event) {
+ event.preventDefault();
+ });
+ });
+ </script>
 
 
   </head>
