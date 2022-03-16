@@ -52,11 +52,14 @@
  <!-- partial:index.partial.html -->
 <div class="container" style="padding-top:2em">
 <div class="book">
-<a href="senzamusica.pdf">
+<a id="toggle">
   <div class="title">
     <p>Senza Musica</p>
   </div>
-  <div class="book-cover cover0">
+    <div class="alert" id="alert">
+    <p class="shadow">Ti interessa leggere <i>Senza Musica</i>? Scrivi a lenguachantal@gmail.com, sarò lieta di inviartelo gratuitamente!</p>
+  </div>
+  <div class="book-cover cover0" id="pic">
     <div class="effect"></div>
     <div class="light"></div>
   </div>
@@ -69,19 +72,22 @@
 
 <!-- Evelyn è una bambina sognatrice e curiosa di avere risposte dal mondo lucido e razionale degli adulti. Crescendo, tuttavia, l'entusiasmo infantile cede il posto alla tristezza di una vita disillusa e monotona, ma una sera d'autunno un incontro inaspettato cambia il suo destino. La vita ha in serbo per lei altre sorprese, gioie e sofferenze: grazie a un viaggio intorno al mondo conoscerà gli angoli più significativi e remoti del pianeta, alla ricerca di suo padre. Evelyn ritroverà la gioia di vivere, arricchendo il proprio bagaglio di sensazioni ed esperienze che le permetteranno di conoscere al meglio se stessa e le proprie potenzialità.-->
 
-<div class="container" style="padding-bottom:2em">
+<div class="container" style="padding-top:2em">
 <div class="book">
-<a href="#">
+<a id="toggle2">
   <div class="title">
     <p>Così si spezzò il tempo</p>
   </div>
-  <div class="book-cover cover00">
+    <div class="alert" id="alert2">
+    <p class="shadow">Ti interessa leggere <i>Così si spezzò il tempo</i>? Scrivi a lenguachantal@gmail.com, sarò lieta di inviartelo gratuitamente!</p>
+  </div>
+  <div class="book-cover cover00" id="pic2">
     <div class="effect"></div>
     <div class="light"></div>
   </div>
   <div class="book-inside">
   </div>
- <p class="pag">450 pag.</p>
+ <p class="pag">250 pag.</p>
 </a>
 </div>
 </div>
@@ -98,7 +104,37 @@
 	</div>
   </footer>
 
-
-    
+<script>
+const targetDiv = document.getElementById("alert");
+const targetPic = document.getElementById("pic");
+const btn = document.getElementById("toggle");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "inline-block") {
+    targetDiv.style.display = "inline-block";
+	targetPic.style.filter = "blur(1px)";
+	targetDiv.style.transformOrigin = "0 50% !important";
+	targetDiv.style.transition = "all 1s ease-in-out";
+  } else {
+    targetDiv.style.display = "none";
+	targetPic.style.filter = "none";
+  }
+};
+</script>
+<script>
+const targetDiv2 = document.getElementById("alert2");
+const targetPic2 = document.getElementById("pic2");
+const btn2 = document.getElementById("toggle2");
+btn2.onclick = function () {
+  if (targetDiv2.style.display !== "inline-block") {
+    targetDiv2.style.display = "inline-block";
+	targetPic2.style.filter = "blur(1px)";
+	targetDiv2.style.transformOrigin = "0 50% !important";
+	targetDiv2.style.transition = "all 1s ease-in-out";
+  } else {
+    targetDiv2.style.display = "none";
+	targetPic2.style.filter = "none";
+  }
+};
+</script>
   </body>
 </html>
