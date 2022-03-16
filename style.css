@@ -142,6 +142,10 @@ footer input[type="image"] {
     vertical-align: text-bottom;
 }
 
+#container2 {
+	padding-top:1em !important;
+	margin-bottom:2em !important;
+}
 
 }	
 
