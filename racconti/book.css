@@ -395,4 +395,8 @@ max-width: 14em;
 p {
     margin: 0em !important;
 }
+
+footer { display: none; }
+
+.footer-about {display: block;}
 }
