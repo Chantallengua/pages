@@ -29,7 +29,7 @@ article {
 	text-align: justify !important;
 }
 
-.link-about {
+.open-book a {
 	text-decoration: underline;
 	color: RGB(0, 96, 197);
 }
