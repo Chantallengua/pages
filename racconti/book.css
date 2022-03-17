@@ -125,7 +125,7 @@ max-width: 14em;
     line-height: 1.5;
 }
 
-.open-book article *:not(.chapter-title):not(hr):not(dl):not(i):not(a):not(button):not(image):not(img):not(span):not(b) {
+.open-book article *:not(.chapter-title):not(hr):not(dl):not(i):not(a):not(button):not(image):not(img):not(span):not(b):not(.not):not(h4) {
     margin: 0 2em;
     max-width: 28.125em;
 }
@@ -399,4 +399,8 @@ p {
 footer { display: none; }
 
 .footer-about {display: block;}
+}
+
+.icons_contatti {
+	font-size: 18pt;
 }
