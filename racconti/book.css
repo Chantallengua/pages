@@ -404,3 +404,7 @@ footer { display: none; }
 .icons_contatti {
 	font-size: 18pt;
 }
+
+.bi-filetype-pdf {
+	color: #212529;
+}
