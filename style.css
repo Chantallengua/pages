@@ -38,6 +38,10 @@ form {
 
 @media only screen and ( max-width: 780px ) {
 
+#big-container {
+		margin-top: 2em;
+}
+
 .alert {
     font-size: 22px;
     width: 100%;
@@ -335,6 +339,10 @@ footer input[type="image"] {
 
 .cover6 {
   background-image: url('img/latte.jpg');
+}
+
+.cover7 {
+  background-image: url('img/chuck4.jpg');
 }
 
 .cover0 {
